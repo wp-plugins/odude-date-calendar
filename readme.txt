@@ -77,7 +77,11 @@ Click on the link to see the <a href="http://datetimenow.com/" target="_blank">L
    
 ==  Screenshots ==
 
-1. ODude Date plugin home page.
+1. ODude Date plugin calendar interface
+2. Deatil view of calendar
+3. Ability to show local live time of anywhere
+4. View event list of particular month.
+5. Search Results.
 
 == Changelog ==
 
