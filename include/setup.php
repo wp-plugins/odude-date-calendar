@@ -50,15 +50,21 @@ function install_table_odudedate()
 $wpdb->query($qry);
 	
 
-$content='[odude_flag country="" size="ico" page="page"] [odude_settimezone zone=""]
+$content='<table border="0" cellspacing="1">
+<tbody>
+<tr>
+<td>[odude_flag group="" size="ico" page="page"]</td>
+<td> [odude_settimezone zone=""]</td>
+</tr>
+</tbody>
+</table>
+[odude_date group=""  layout="general"]
 
-[odude_date country=""]
+[odude_other group=""  layout="celeb"]
 
-[odude_other country="" category="celeb"]
+[odude_other group=""  layout="extra"]
 
-[odude_other country="" category="extra"]
-
-[odude_calendar country=""]';
+[odude_calendar group=""]';
 
 
 	
