@@ -2,7 +2,7 @@
 
 Contributors: odude
 
-Tags: event, events, calendar, calender, holiday, routine, schedule, date, time
+Tags: event, events, calendar, calender, holiday, routine, schedule, date, time, button
 
 Donate Link: http://www.odude.com
 
@@ -17,16 +17,20 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 
-A Simple Event Management
+Calendar button for your website. 
 
 
 == Description ==
 
-= What is ODude Date? =
+= What can we do with ODude Date? =
 
-ODude Date is a calendar based event management system. It is very simple to use and very advance in features.
+It is very useful plugin and this concept is used in millions of site in different styles.
 
-Do not compare with other event mangement plugins because it is different than orthers. It is custom build plugin for some of our clients and many enhancement has been done. It is fully foced on event,schedule, appointment, holiday, on particular date.
+This will simply create a menu called calender which will display the traditional style calendar. Each date may have some details with pictures.
+
+It is mostly used by those organisation where calendar is most required. For eg. schools, clubs etc.
+
+Do not compare with other event management plugins because it is different than others. It is custom build plugin for some of our clients and many enhancement has been done. It is fully focused on event, schedule, appointment, holiday on particular date.
 
 Click here for <a href=http://www.odude.com/wordpress>More Information</a>
 
@@ -39,7 +43,7 @@ Click here for <a href=http://www.odude.com/wordpress>More Information</a>
 * Can mark some days as RED and other recorded events as GREEN color.
 * Ability to link particular event to the post page dynamically.
 * 100% Search Engine Friendly. (SEO)
-* Facebook meta tags mentained.
+* Facebook meta tags maintained.
 * Extra settings for sharing at Facebook.
 * Everything is based on shortcode. You can use it anywhere at your site.
 
@@ -78,7 +82,7 @@ Click on the link to see the <a href="http://datetimenow.com/" target="_blank">L
 ==  Screenshots ==
 
 1. ODude Date plugin calendar interface
-2. Deatil view of calendar
+2. Detail  view of calendar
 3. Ability to show local live time of anywhere
 4. View event list of particular month.
 5. Search Results.
