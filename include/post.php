@@ -4,6 +4,16 @@
 global  $site_url;
  global $pro_active;
  
+ $w_large_size=get_option('w_large_size');
+ if($w_large_size=='')
+ {
+	 	 
+	 echo "<div class=\"wrap\"><hr><h4>ODude Date Setting is not yet saved. Please save settings before you proceed. </h4></div>";
+ }
+ else
+ {
+	
+ 
 if($username=="admin")
  $mypage="odudedate";
  else
@@ -352,4 +362,5 @@ else
 echo "<hr>";
 }
 }
+ }
 ?>
