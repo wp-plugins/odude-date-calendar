@@ -80,7 +80,8 @@ $content='<table border="0" cellspacing="1">
 // Insert the post into the database
 wp_insert_post( $my_post );
 
-	
+
+		
 }
 
 
