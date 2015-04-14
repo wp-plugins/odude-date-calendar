@@ -222,7 +222,8 @@ $year="";
 				if($holiday=='0')
 				$holiday="";
 				else
-				$holiday='<img src="'.plugins_url().'/odude-date/css/images/holiday.png">';
+				$holiday='<img src="'.plugins_url( '../css/images/red.png', __FILE__ ).'">';	
+				//$holiday='<img src="'.plugins_url().'/odude-date/css/images/holiday.png">';
 				
 				$share='<a href="https://www.facebook.com/sharer.php?u=http://'.$_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"].'" target="_blank"><img src="'.plugins_url().'/odude-date/css/images/facebook_share.gif"></a>';
 				
@@ -707,7 +708,8 @@ $page=$atts['page'];
 			}
 		}
 
-$pic = plugins_url()."/odude-date/css/images/".$size."_".$country.".png";
+//$pic = plugins_url()."/odude-date/css/images/".$size."_".$country.".png";
+$pic=plugins_url( '../css/images/'.$size.'_'.$country.'.png', __FILE__ );
 $path = ODUDEDATE_PLUGIN_DIR. "css/images/".$size."_".$country.".png";
 
 			
@@ -833,7 +835,8 @@ $disp.="<b>".conName($country)." - ".monthName($month)."</b>";
 						}
 						else
 						{
-						$pic = plugins_url().'/odude-date/css/images/link.png';
+						//$pic = plugins_url().'/odude-date/css/images/link.png';
+						$pic=plugins_url( '../css/images/link.png', __FILE__ );
 						$event="<a href='$link' target='_blank'>$event</a>&nbsp; <img src='$pic'>";
 						}
 					} 

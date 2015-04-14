@@ -555,7 +555,8 @@ $f.=$g."</style>";
 				if($holiday=='0')
 				$holiday="";
 				else
-				$holiday='<img src="'.plugins_url().'/odude-date/css/images/red.png">';
+				$holiday='<img src="'.plugins_url( '../css/images/red.png', __FILE__ ).'">';	
+				//$holiday='<img src="'.plugins_url().'/odude-date/css/images/red.png">';
 				$flag=do_shortcode('[odude_flag group="'.$country.'" size="ico" page=""]');
 				
 				
