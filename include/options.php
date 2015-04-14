@@ -40,12 +40,12 @@ function odudedate_setting()
 		
 		<tr valign="top">
         <th scope="row">Thumbnail Dimension (px)</th>
-        <td>Width: <input type="text" name="w_thumb_size" value="<?php echo get_option('w_thumb_size'); ?>" size="4" maxlength="3" /> Height: <input type="text" name="h_thumb_size" value="<?php echo get_option('h_thumb_size'); ?>" size="4" maxlength="3" /></td>
+        <td>Width: <input type="text" name="w_thumb_size" value="<?php echo (get_option('w_thumb_size')==''?'100':get_option('w_thumb_size')); ?>" size="4" maxlength="3" /> Height: <input type="text" name="h_thumb_size" value="<?php echo (get_option('h_thumb_size')==''?'100':get_option('h_thumb_size')); ?>" size="4" maxlength="3" /></td>
         </tr>
 		
 			<tr valign="top">
         <th scope="row">Large Image Dimension (px)</th>
-        <td>Width: <input type="text" name="w_large_size" value="<?php echo get_option('w_large_size'); ?>" size="4" maxlength="3" /> Height: <input type="text" name="h_large_size" value="<?php echo get_option('h_large_size'); ?>" size="4" maxlength="3" /></td>
+        <td>Width: <input type="text" name="w_large_size" value="<?php echo (get_option('w_large_size')==''?'400':get_option('w_large_size')); ?>" size="4" maxlength="3" /> Height: <input type="text" name="h_large_size" value="<?php echo (get_option('h_large_size')==''?'400':get_option('h_large_size')); ?>" size="4" maxlength="3" /></td>
         </tr>
 		
 		
