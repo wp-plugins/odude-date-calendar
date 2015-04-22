@@ -113,7 +113,8 @@ require_once(ODUDEDATE_PLUGIN_DIR . '/include/dash.php');
 function odudedatecreatemenu()
 {
 	
-	add_menu_page( 'ODude Date', 'ODude Date', 'manage_options', 'odudedate_dash', 'odudedate_dash', plugins_url( 'odude-date/icon.png' ), 6 );
+	add_menu_page( 'ODude Date', 'ODude Date', 'manage_options', 'odudedate_dash', 'odudedate_dash',  plugins_url( 'icon.png', __FILE__ ), 6 );
+	//add_menu_page( 'ODude Date', 'ODude Date', 'manage_options', 'odudedate_dash', 'odudedate_dash', plugins_url( 'odude-date/icon.png' ), 6 );
 	add_submenu_page( 'odudedate_dash', 'Post', 'Post', 'manage_options', 'odudedate', 'odudedate' );
 	add_submenu_page( 'odudedate_dash', 'Last Updated', 'Last Updated', 'manage_options', 'odudedate_stats', 'odudedate_stats' );
 	add_submenu_page( 'odudedate_dash', 'Settings', 'Settings', 'manage_options', 'odudedate_setting', 'odudedate_setting' );
@@ -234,6 +235,7 @@ global $wp_query;
 global $wpdb;
 global  $site_url;
 global $pro_active;
+$upload_dir = wp_upload_dir();
 
 if (is_page('calendar'))
 {
@@ -267,7 +269,8 @@ if (is_page('calendar'))
 				$id=$val->id;
 				if($extra3!="")
 				{
-				$extra3='<meta property="og:image" content="'.$site_url.'wp-content/uploads/odude-date/'.$id.'.jpg"/>';
+				//$extra3='<meta property="og:image" content="'.$site_url.'wp-content/uploads/odude-date/'.$id.'.jpg"/>';
+				$extra3='<meta property="og:image" content="'.$upload_dir['baseurl'].'/odude-date/'.$id.'.jpg"/>';
 				}
 				else
 				{
